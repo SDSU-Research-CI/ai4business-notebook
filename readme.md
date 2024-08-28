@@ -1,5 +1,5 @@
-# Large Language Model Notebook
-Jupyter Notebook container image for running and fine-tuning Large Language Models
+# AI4Business Lab Notebook
+Jupyter Notebook container image for the AI4Business Lab at SDSU
 
 ## Software Included
 - 
