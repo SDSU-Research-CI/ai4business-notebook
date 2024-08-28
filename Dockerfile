@@ -21,3 +21,6 @@ WORKDIR /home/${NB_USER}
 RUN conda install -y -c conda-forge nb_conda_kernels -n base
 
 RUN conda create -y -n pavement python=3.10.12
+
+RUN source activate pavement \
+ && mamba install -y ipykernel jupyter
